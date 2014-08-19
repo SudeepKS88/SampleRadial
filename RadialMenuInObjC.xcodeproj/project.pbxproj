@@ -10,9 +10,32 @@
 		FF8669A61994DC1C00428C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669A51994DC1C00428C7C /* main.m */; };
 		FF8669A91994DC1C00428C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669A81994DC1C00428C7C /* AppDelegate.m */; };
 		FF8669AC1994DC1C00428C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669AB1994DC1C00428C7C /* ViewController.m */; };
-		FF8669AF1994DC1C00428C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8669AD1994DC1C00428C7C /* Main.storyboard */; };
 		FF8669B11994DC1C00428C7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8669B01994DC1C00428C7C /* Images.xcassets */; };
 		FF8669BD1994DC1D00428C7C /* RadialMenuInObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669BC1994DC1D00428C7C /* RadialMenuInObjCTests.m */; };
+		FF8669CF1994E00300428C7C /* RadialMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669CE1994E00300428C7C /* RadialMenu.m */; };
+		FF8669D21994E1D100428C7C /* SegmentDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669D11994E1D100428C7C /* SegmentDetail.m */; };
+		FF8669DF1994E34800428C7C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D41994E34800428C7C /* bg.png */; };
+		FF8669E01994E34800428C7C /* centerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D51994E34800428C7C /* centerButton.png */; };
+		FF8669E11994E34800428C7C /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D61994E34800428C7C /* icon0.png */; };
+		FF8669E21994E34800428C7C /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D71994E34800428C7C /* icon1.png */; };
+		FF8669E31994E34800428C7C /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D81994E34800428C7C /* icon2.png */; };
+		FF8669E41994E34800428C7C /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669D91994E34800428C7C /* icon3.png */; };
+		FF8669E51994E34800428C7C /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669DA1994E34800428C7C /* icon4.png */; };
+		FF8669E61994E34800428C7C /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669DB1994E34800428C7C /* icon5.png */; };
+		FF8669E71994E34800428C7C /* icon6.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669DC1994E34800428C7C /* icon6.png */; };
+		FF8669E81994E34800428C7C /* icon7.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669DD1994E34800428C7C /* icon7.png */; };
+		FF8669E91994E34800428C7C /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669DE1994E34800428C7C /* segment.png */; };
+		FF8669EB1994F07C00428C7C /* segmentBig.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8669EA1994F07C00428C7C /* segmentBig.png */; };
+		FF8669F31994FBBA00428C7C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8669F21994FBBA00428C7C /* ViewController.xib */; };
+		FF8669F619950B3B00428C7C /* SectorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669F519950B3B00428C7C /* SectorImageView.m */; };
+		FF86EE331998A28E00317CC7 /* RadialMenuContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86EE321998A28E00317CC7 /* RadialMenuContainer.m */; };
+		FF86EE351998BFBC00317CC7 /* segmentBigger.png in Resources */ = {isa = PBXBuildFile; fileRef = FF86EE341998BFBC00317CC7 /* segmentBigger.png */; };
+		FFFEDBA6199A1F8B0056BAED /* segment01.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBA3199A1F8B0056BAED /* segment01.png */; };
+		FFFEDBA7199A1F8B0056BAED /* segment02.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBA4199A1F8B0056BAED /* segment02.png */; };
+		FFFEDBA8199A1F8B0056BAED /* segment03.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBA5199A1F8B0056BAED /* segment03.png */; };
+		FFFEDBAC199A35370056BAED /* segment03-active.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBA9199A35370056BAED /* segment03-active.png */; };
+		FFFEDBAD199A35370056BAED /* segment02-active.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBAA199A35370056BAED /* segment02-active.png */; };
+		FFFEDBAE199A35370056BAED /* segment01-active.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFEDBAB199A35370056BAED /* segment01-active.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF28F186199B786C00C2CD80 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF8669A01994DC1C00428C7C /* RadialMenuInObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadialMenuInObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8669A41994DC1C00428C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8669A51994DC1C00428C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,11 +57,38 @@
 		FF8669A81994DC1C00428C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF8669AA1994DC1C00428C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF8669AB1994DC1C00428C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FF8669AE1994DC1C00428C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8669B01994DC1C00428C7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF8669B61994DC1D00428C7C /* RadialMenuInObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadialMenuInObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8669BB1994DC1D00428C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8669BC1994DC1D00428C7C /* RadialMenuInObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialMenuInObjCTests.m; sourceTree = "<group>"; };
+		FF8669CD1994E00300428C7C /* RadialMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialMenu.h; sourceTree = "<group>"; };
+		FF8669CE1994E00300428C7C /* RadialMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialMenu.m; sourceTree = "<group>"; };
+		FF8669D01994E1D100428C7C /* SegmentDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentDetail.h; sourceTree = "<group>"; };
+		FF8669D11994E1D100428C7C /* SegmentDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentDetail.m; sourceTree = "<group>"; };
+		FF8669D41994E34800428C7C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		FF8669D51994E34800428C7C /* centerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerButton.png; sourceTree = "<group>"; };
+		FF8669D61994E34800428C7C /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		FF8669D71994E34800428C7C /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		FF8669D81994E34800428C7C /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		FF8669D91994E34800428C7C /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		FF8669DA1994E34800428C7C /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		FF8669DB1994E34800428C7C /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		FF8669DC1994E34800428C7C /* icon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon6.png; sourceTree = "<group>"; };
+		FF8669DD1994E34800428C7C /* icon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon7.png; sourceTree = "<group>"; };
+		FF8669DE1994E34800428C7C /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
+		FF8669EA1994F07C00428C7C /* segmentBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentBig.png; sourceTree = "<group>"; };
+		FF8669F21994FBBA00428C7C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		FF8669F419950B3B00428C7C /* SectorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorImageView.h; sourceTree = "<group>"; };
+		FF8669F519950B3B00428C7C /* SectorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorImageView.m; sourceTree = "<group>"; };
+		FF86EE311998A28E00317CC7 /* RadialMenuContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialMenuContainer.h; sourceTree = "<group>"; };
+		FF86EE321998A28E00317CC7 /* RadialMenuContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialMenuContainer.m; sourceTree = "<group>"; };
+		FF86EE341998BFBC00317CC7 /* segmentBigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentBigger.png; sourceTree = "<group>"; };
+		FFFEDBA3199A1F8B0056BAED /* segment01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment01.png; sourceTree = "<group>"; };
+		FFFEDBA4199A1F8B0056BAED /* segment02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment02.png; sourceTree = "<group>"; };
+		FFFEDBA5199A1F8B0056BAED /* segment03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment03.png; sourceTree = "<group>"; };
+		FFFEDBA9199A35370056BAED /* segment03-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment03-active.png"; sourceTree = "<group>"; };
+		FFFEDBAA199A35370056BAED /* segment02-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment02-active.png"; sourceTree = "<group>"; };
+		FFFEDBAB199A35370056BAED /* segment01-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment01-active.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +112,7 @@
 		FF8669971994DC1C00428C7C = {
 			isa = PBXGroup;
 			children = (
+				FF28F186199B786C00C2CD80 /* SenTestingKit.framework */,
 				FF8669A21994DC1C00428C7C /* RadialMenuInObjC */,
 				FF8669B91994DC1D00428C7C /* RadialMenuInObjCTests */,
 				FF8669A11994DC1C00428C7C /* Products */,
@@ -79,13 +131,22 @@
 		FF8669A21994DC1C00428C7C /* RadialMenuInObjC */ = {
 			isa = PBXGroup;
 			children = (
+				FF8669D31994E34800428C7C /* assets */,
 				FF8669A71994DC1C00428C7C /* AppDelegate.h */,
 				FF8669A81994DC1C00428C7C /* AppDelegate.m */,
 				FF8669AA1994DC1C00428C7C /* ViewController.h */,
 				FF8669AB1994DC1C00428C7C /* ViewController.m */,
-				FF8669AD1994DC1C00428C7C /* Main.storyboard */,
+				FF8669F21994FBBA00428C7C /* ViewController.xib */,
 				FF8669B01994DC1C00428C7C /* Images.xcassets */,
 				FF8669A31994DC1C00428C7C /* Supporting Files */,
+				FF8669CD1994E00300428C7C /* RadialMenu.h */,
+				FF8669CE1994E00300428C7C /* RadialMenu.m */,
+				FF8669D01994E1D100428C7C /* SegmentDetail.h */,
+				FF8669D11994E1D100428C7C /* SegmentDetail.m */,
+				FF8669F419950B3B00428C7C /* SectorImageView.h */,
+				FF8669F519950B3B00428C7C /* SectorImageView.m */,
+				FF86EE311998A28E00317CC7 /* RadialMenuContainer.h */,
+				FF86EE321998A28E00317CC7 /* RadialMenuContainer.m */,
 			);
 			path = RadialMenuInObjC;
 			sourceTree = "<group>";
@@ -114,6 +175,32 @@
 				FF8669BB1994DC1D00428C7C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8669D31994E34800428C7C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				FFFEDBA9199A35370056BAED /* segment03-active.png */,
+				FFFEDBAA199A35370056BAED /* segment02-active.png */,
+				FFFEDBAB199A35370056BAED /* segment01-active.png */,
+				FF86EE341998BFBC00317CC7 /* segmentBigger.png */,
+				FF8669D41994E34800428C7C /* bg.png */,
+				FF8669EA1994F07C00428C7C /* segmentBig.png */,
+				FF8669D51994E34800428C7C /* centerButton.png */,
+				FF8669D61994E34800428C7C /* icon0.png */,
+				FF8669D71994E34800428C7C /* icon1.png */,
+				FF8669D81994E34800428C7C /* icon2.png */,
+				FF8669D91994E34800428C7C /* icon3.png */,
+				FF8669DA1994E34800428C7C /* icon4.png */,
+				FF8669DB1994E34800428C7C /* icon5.png */,
+				FF8669DC1994E34800428C7C /* icon6.png */,
+				FF8669DD1994E34800428C7C /* icon7.png */,
+				FF8669DE1994E34800428C7C /* segment.png */,
+				FFFEDBA3199A1F8B0056BAED /* segment01.png */,
+				FFFEDBA4199A1F8B0056BAED /* segment02.png */,
+				FFFEDBA5199A1F8B0056BAED /* segment03.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +283,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8669AF1994DC1C00428C7C /* Main.storyboard in Resources */,
+				FF8669F31994FBBA00428C7C /* ViewController.xib in Resources */,
+				FFFEDBAC199A35370056BAED /* segment03-active.png in Resources */,
+				FF8669EB1994F07C00428C7C /* segmentBig.png in Resources */,
+				FF8669E61994E34800428C7C /* icon5.png in Resources */,
+				FF8669E41994E34800428C7C /* icon3.png in Resources */,
+				FFFEDBA6199A1F8B0056BAED /* segment01.png in Resources */,
+				FF8669E91994E34800428C7C /* segment.png in Resources */,
+				FF86EE351998BFBC00317CC7 /* segmentBigger.png in Resources */,
+				FF8669E11994E34800428C7C /* icon0.png in Resources */,
+				FFFEDBAD199A35370056BAED /* segment02-active.png in Resources */,
+				FFFEDBA8199A1F8B0056BAED /* segment03.png in Resources */,
+				FF8669E71994E34800428C7C /* icon6.png in Resources */,
+				FF8669E01994E34800428C7C /* centerButton.png in Resources */,
+				FF8669E21994E34800428C7C /* icon1.png in Resources */,
+				FFFEDBA7199A1F8B0056BAED /* segment02.png in Resources */,
 				FF8669B11994DC1C00428C7C /* Images.xcassets in Resources */,
+				FF8669E81994E34800428C7C /* icon7.png in Resources */,
+				FF8669E31994E34800428C7C /* icon2.png in Resources */,
+				FF8669DF1994E34800428C7C /* bg.png in Resources */,
+				FF8669E51994E34800428C7C /* icon4.png in Resources */,
+				FFFEDBAE199A35370056BAED /* segment01-active.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +324,10 @@
 				FF8669AC1994DC1C00428C7C /* ViewController.m in Sources */,
 				FF8669A91994DC1C00428C7C /* AppDelegate.m in Sources */,
 				FF8669A61994DC1C00428C7C /* main.m in Sources */,
+				FF8669D21994E1D100428C7C /* SegmentDetail.m in Sources */,
+				FF8669F619950B3B00428C7C /* SectorImageView.m in Sources */,
+				FF8669CF1994E00300428C7C /* RadialMenu.m in Sources */,
+				FF86EE331998A28E00317CC7 /* RadialMenuContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,17 +348,6 @@
 			targetProxy = FF8669B71994DC1D00428C7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FF8669AD1994DC1C00428C7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF8669AE1994DC1C00428C7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF8669BE1994DC1D00428C7C /* Debug */ = {
@@ -285,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -332,9 +431,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (5KGN464P99)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sivakumar Nair (5KGN464P99)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = RadialMenuInObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E551EAA8-415E-4E5D-9485-7A80AE5F9551";
 			};
 			name = Debug;
 		};
@@ -343,9 +450,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sivakumar Nair (5KGN464P99)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = RadialMenuInObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E551EAA8-415E-4E5D-9485-7A80AE5F9551";
 			};
 			name = Release;
 		};
@@ -402,6 +516,7 @@
 				FF8669C21994DC1D00428C7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF8669C31994DC1D00428C7C /* Build configuration list for PBXNativeTarget "RadialMenuInObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +525,7 @@
 				FF8669C51994DC1D00428C7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

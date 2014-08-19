@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+//#import <SenTestingKit/SenTestingKit.h>
 
 @interface RadialMenuInObjCTests : XCTestCase
 
@@ -28,6 +29,7 @@
 - (void)testExample {
     // This is an example of a functional test case.
     XCTAssert(YES, @"Pass");
+    
 }
 
 - (void)testPerformanceExample {
