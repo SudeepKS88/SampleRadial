@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF7ADB5919A4B83500BC9AC8 /* HTA_Dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = FF7ADB5819A4B83500BC9AC8 /* HTA_Dist.mobileprovision */; };
 		FF8669A61994DC1C00428C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669A51994DC1C00428C7C /* main.m */; };
 		FF8669A91994DC1C00428C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669A81994DC1C00428C7C /* AppDelegate.m */; };
 		FF8669AC1994DC1C00428C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8669AB1994DC1C00428C7C /* ViewController.m */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		FF28F186199B786C00C2CD80 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF7ADB5819A4B83500BC9AC8 /* HTA_Dist.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = HTA_Dist.mobileprovision; sourceTree = "<group>"; };
 		FF8669A01994DC1C00428C7C /* RadialMenuInObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadialMenuInObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8669A41994DC1C00428C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8669A51994DC1C00428C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		FF8669971994DC1C00428C7C = {
 			isa = PBXGroup;
 			children = (
+				FF7ADB5819A4B83500BC9AC8 /* HTA_Dist.mobileprovision */,
 				FF28F186199B786C00C2CD80 /* SenTestingKit.framework */,
 				FF8669A21994DC1C00428C7C /* RadialMenuInObjC */,
 				FF8669B91994DC1D00428C7C /* RadialMenuInObjCTests */,
@@ -294,6 +297,7 @@
 				FF8669E11994E34800428C7C /* icon0.png in Resources */,
 				FFFEDBAD199A35370056BAED /* segment02-active.png in Resources */,
 				FFFEDBA8199A1F8B0056BAED /* segment03.png in Resources */,
+				FF7ADB5919A4B83500BC9AC8 /* HTA_Dist.mobileprovision in Resources */,
 				FF8669E71994E34800428C7C /* icon6.png in Resources */,
 				FF8669E01994E34800428C7C /* centerButton.png in Resources */,
 				FF8669E21994E34800428C7C /* icon1.png in Resources */,
