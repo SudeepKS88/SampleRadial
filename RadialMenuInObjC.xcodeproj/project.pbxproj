@@ -450,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E551EAA8-415E-4E5D-9485-7A80AE5F9551";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Debug;
 		};
@@ -469,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f731d0d1-0705-45e6-9a61-110e107681ef";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Release;
 		};
