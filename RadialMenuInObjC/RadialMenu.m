@@ -149,6 +149,8 @@ static float deltaAngle;
         clove.value = i;
         
         
+        
+        
         if (clove.maxValue-fanWidth < - M_PI) {
             
             mid = M_PI;
