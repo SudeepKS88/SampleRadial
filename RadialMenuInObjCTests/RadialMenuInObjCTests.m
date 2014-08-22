@@ -35,7 +35,7 @@
 - (void)testCompareExample {
 
     int valueX = 1;
-    int valueY = 2;
+    int valueY = 1;
     
     XCTAssertTrue(valueX == valueY);
 
