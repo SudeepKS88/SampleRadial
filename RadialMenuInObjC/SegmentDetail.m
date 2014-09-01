@@ -17,6 +17,8 @@
     
     return [NSString stringWithFormat:@"%i | %f, %f, %f", self.value, self.minValue, self.midValue, self.maxValue];
     
+    
+    
 }
 
 
